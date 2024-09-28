@@ -1,0 +1,17 @@
+.BackGround-home {
+  background-image: url("../assets/Home/galaxyEarthMilkyWay.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 150vh;
+  position: relative;
+}
+
+.BackGround-home::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 0;
+}

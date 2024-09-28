@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
-import Landing from "./pages/Landing";
+import Landing from "./pages/Home";
 import Academy from "./pages/Academy";
-import Club from "./pages/Club";
-import Conectworking from "./pages/Conetworking";
+import Club from "./pages/Clubs";
+import Conectworking from "./pages/CoNetWorKing";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
