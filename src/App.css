@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Titles";
+  src: url("./assets/Fonts/AtomicAge-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Text";
+  src: url("./assets/Fonts/Exo-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.primary-color {
+  color: #69af00;
+}

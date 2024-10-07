@@ -1,17 +1,25 @@
-.BackGround-home {
-  background-image: url("../assets/Home/galaxyEarthMilkyWay.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 150vh;
-  position: relative;
+.background {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
 }
 
-.BackGround-home::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  z-index: 0;
+.home {
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+}
+
+.first-home {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-family: "Text";
+}
+
+.first-home h1 {
+  font-family: "Titles";
+  margin-top: 0;
 }
