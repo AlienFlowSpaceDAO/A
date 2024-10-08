@@ -17,9 +17,24 @@
   justify-content: center;
   text-align: center;
   font-family: "Text";
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .first-home h1 {
   font-family: "Titles";
   margin-top: 0;
+}
+
+.image1 {
+  width: 100px;
+  border: 1px solid red;
+  margin-inline: auto;
+}
+
+.buttonlist {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
 }

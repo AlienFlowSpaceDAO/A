@@ -15,3 +15,31 @@
 .primary-color {
   color: #69af00;
 }
+
+.normalbutton {
+  background-color: #69af00;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.normalbutton:hover {
+  animation: grow-shrink 0.3s infinite alternate;
+}
+
+@keyframes grow-shrink {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.normalbutton img {
+  margin-right: 10px;
+}
