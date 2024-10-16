@@ -4,3 +4,9 @@
   justify-content: center;
   padding-block: 10px;
 }
+
+.footer ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
