@@ -1,11 +1,14 @@
-.footer {
+footer {
+  position: relative;
   display: flex;
   border: 1px solid red;
   justify-content: center;
   padding-block: 10px;
+  max-width: 1600px;
+  margin-inline: auto;
 }
 
-.footer ul {
+ul {
   display: flex;
   list-style-type: none;
   gap: 30px;

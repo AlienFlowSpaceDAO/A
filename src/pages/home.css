@@ -9,7 +9,6 @@
 .home {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.3);
-  height: 100vh;
 }
 
 .first-home {
@@ -18,21 +17,38 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  border: 1px red solid;
+  margin-top: 30px;
+  margin-inline: auto;
+  max-width: 1600px;
 }
 
 .first-home h1 {
   font-family: "Titles";
-  margin-top: 0;
+}
+
+.first-home button {
+  width: 40%;
+  margin-inline: auto;
+  position: relative;
+  z-index: 1;
 }
 
 .image1 {
-  width: 100px;
-  border: 1px solid red;
+  width: 150px;
   margin-inline: auto;
+  margin-top: -30px;
+  z-index: 0;
+  position: relative;
+}
+
+.second-home {
+  margin-inline: auto;
+  max-width: 1600px;
+  border: 1px solid red;
 }
 
 .buttonlist {
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
 }
@@ -41,6 +57,9 @@
   display: flex;
   justify-content: space-around;
   border: red 1px solid;
+  max-width: 1600px;
+  margin-inline: auto;
+  padding-block: 10px;
 }
 
 .third-home div {
@@ -50,6 +69,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  width: 25%;
 }
 
 .third-home img {
@@ -62,14 +82,22 @@
   justify-content: center;
   height: 70px;
   border-radius: 50px;
-  padding: 0px;
-  min-width: 30vw;
-  border: red 1px solid;
+  width: 100%;
 }
 
 .fourth-home {
   display: flex;
   justify-content: space-around;
+  padding-block: 20px;
+  border: 1px red solid;
+  max-width: 1600px;
+  margin-inline: auto;
+}
+
+.fifth-home {
+  border: 1px red solid;
+  max-width: 1600px;
+  margin-inline: auto;
 }
 
 .fifth-home h1 {
@@ -84,11 +112,16 @@
 .sixth-home {
   display: flex;
   justify-content: space-around;
+  max-width: 1600px;
+  border: 1px red solid;
+  margin-inline: auto;
 }
 
 .sixth-home div {
   display: flex;
   flex-direction: column;
+  padding-block: 20px;
+  color: white;
 }
 
 .seventh-home {
@@ -96,6 +129,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1600px;
+  border: 1px red solid;
+  margin-inline: auto;
+  padding-bottom: 30px;
 }
 
 .icon {
@@ -109,16 +146,28 @@
   color: white;
   display: flex;
   justify-content: space-around;
+  max-width: 1600px;
+  border: 1px red solid;
+  margin-inline: auto;
 }
 
 .eighth-home article {
   display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.eighth-home p {
+  margin-top: -10px;
 }
 
 .nineth-home {
   color: white;
   display: flex;
   justify-content: space-around;
+  max-width: 1600px;
+  border: 1px red solid;
+  margin-inline: auto;
 }
 
 .nineth-home ul {

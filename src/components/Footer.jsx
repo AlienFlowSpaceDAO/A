@@ -4,10 +4,10 @@ import { useTranslation } from "react-i18next";
 
 function Footer() {
   const { t } = useTranslation();
+
   return (
-    <div className="footer">
+    <footer>
       <ul>
-        {" "}
         <li>
           <Link to="/">{t("navbar.home")}</Link>
         </li>
@@ -24,7 +24,7 @@ function Footer() {
           <Link to="/conetworking">{t("navbar.conetworking")}</Link>
         </li>
       </ul>
-    </div>
+    </footer>
   );
 }
 

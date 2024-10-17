@@ -9,12 +9,14 @@ function Landing() {
   return (
     <div className="home">
       <section className="first-home">
-        <h1 className="titles primary-color">ALIEN FLOW SPACE</h1>
-        <p className="text">Access & Explore the DAO Ecosystem Solutions</p>
-        <p>
+        <h1 className="primary-color">ALIEN FLOW SPACE</h1>
+        <p className="text">
+          Access & Explore the DAO Ecosystem Solutions
+          <br />
           Unlock the Evolution of Energy Efficiency with Environmental
           Sustainability
         </p>
+
         <h3>
           Boost BENEFITS, Raise your QUALITY of LIFE, with Mutual PROFITS; to
           connect you EXCLUSIVE ADVANTAGES…
@@ -22,6 +24,7 @@ function Landing() {
         <button className="normalbutton">Start Now!</button>
         <img src={alienbook} className="image1" />
       </section>
+
       <section className="second-home">
         <div className="buttonlist">
           <button className="normalbutton">DeFi</button>
@@ -31,6 +34,7 @@ function Landing() {
         </div>
         <div></div>
       </section>
+
       <section className="third-home">
         <div>
           <button className="specialbutton">
@@ -51,14 +55,16 @@ function Landing() {
           Elevate your succes:
         </div>
       </section>
+
       <section className="fourth-home">
         <button className="normalbutton">Academy</button>
         <button className="normalbutton">Clubs</button>
         <button className="normalbutton">CoNetWorking</button>
       </section>
+
       <section className="fifth-home">
         <h1>Financial Freedom</h1>
-        <p>
+        <p className="text">
           Any Individual or Professional can understand the ADVANTAGES of
           digital money.
           <br />
@@ -69,6 +75,7 @@ function Landing() {
           Experiences, Products & Services according to your demands, instantly
         </p>
       </section>
+
       <section className="sixth-home">
         <div>
           <img></img>
@@ -83,6 +90,7 @@ function Landing() {
           Wallet Connect Web 3!
         </div>
       </section>
+
       <section className="seventh-home">
         <h1>FAQS Questions?</h1>
         <p>
@@ -92,18 +100,19 @@ function Landing() {
         <button className="normalbutton">Contact Now!</button>
         <img src="" />
       </section>
+
       <section className="eighth-home">
         <article>
           <div className="icon" />
           <div>
-            <h3>SECURE PAYMENT</h3>
+            <h4>SECURE PAYMENT</h4>
             <p>All our payments are encrypted and secured with SSL</p>
           </div>
         </article>
         <article>
           <div className="icon" />
           <div>
-            <h3>DELIVERY WITH CARE</h3>
+            <h4>DELIVERY WITH CARE</h4>
             <p>
               Ultra-fast shipping to your door with efficiency & sustainability
             </p>
@@ -112,11 +121,12 @@ function Landing() {
         <article>
           <div className="icon" />
           <div>
-            <h3>EXCELLENT SERVICE</h3>
+            <h4>EXCELLENT SERVICE</h4>
             <p>Live chat and 24/7 support guarantee it</p>
           </div>
         </article>
       </section>
+
       <section className="nineth-home">
         <h3>Earth Powered Space</h3>
         <ul>
