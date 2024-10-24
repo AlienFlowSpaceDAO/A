@@ -1,6 +1,7 @@
 footer {
   position: relative;
   display: flex;
+  flex-direction: column;
   border: 1px solid red;
   justify-content: center;
   padding-block: 10px;
@@ -8,8 +9,23 @@ footer {
   margin-inline: auto;
 }
 
-ul {
+.second-footer {
   display: flex;
   list-style-type: none;
   gap: 30px;
+  margin-inline: auto;
+}
+
+.first-footer {
+  color: white;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.list-footer {
+  list-style-type: none;
+  gap: 5px;
+  display: flex;
 }

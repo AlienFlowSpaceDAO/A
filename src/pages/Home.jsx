@@ -127,19 +127,6 @@ function Landing() {
         </article>
       </section>
 
-      <section className="nineth-home">
-        <h3>Earth Powered Space</h3>
-        <ul>
-          <li>mail</li>
-          <li>face</li>
-          <li>insta</li>
-          <li>linkedin</li>
-          <li>telegram</li>
-          <li>twitter</li>
-          <li>whats</li>
-          <li>youtu</li>
-        </ul>
-      </section>
       <img className="background" src={background} />
     </div>
   );

@@ -1,0 +1,122 @@
+.about {
+  border: 1px solid green;
+  color: white;
+}
+
+.first-about {
+  max-width: 1600px;
+  margin-inline: auto;
+  position: relative;
+  color: white;
+  background-image: url("../assets/About/Milkyway.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  text-align: center;
+  padding: 50px 20px 80px;
+}
+
+.first-about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.first-about h1,
+.first-about p {
+  position: relative;
+  z-index: 2;
+}
+
+.second-about {
+  max-width: 1600px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.second-about div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.third-about {
+  max-width: 1600px;
+  margin-inline: auto;
+  border: 1px solid red;
+  width: 80%;
+  display: flex;
+  margin-inline: auto;
+  justify-content: space-around;
+}
+
+.third-about div {
+  text-align: center;
+  width: 40%;
+}
+
+.forth-about {
+  max-width: 1600px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid red;
+  gap: 20px;
+}
+
+.forth-about div {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-inline: auto;
+}
+
+.forth-about img {
+  width: 20%;
+  max-width: 400px;
+  border-radius: 40%;
+  margin-inline: auto;
+}
+
+.fifth-about {
+  max-width: 1600px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.fifth-about ul {
+  margin-inline: auto;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+.fifth-about li {
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+.sixth-about {
+  max-width: 1600px;
+  border: 1px solid red;
+  margin-inline: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sixth-about p {
+  margin-inline: auto;
+  margin-block: 30px;
+  width: 95%;
+  text-align: justify;
+}

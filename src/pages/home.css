@@ -160,18 +160,3 @@
 .eighth-home p {
   margin-top: -10px;
 }
-
-.nineth-home {
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  max-width: 1600px;
-  border: 1px red solid;
-  margin-inline: auto;
-}
-
-.nineth-home ul {
-  list-style-type: none;
-  gap: 5px;
-  display: flex;
-}
