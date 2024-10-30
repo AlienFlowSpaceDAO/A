@@ -1,6 +1,5 @@
 import "./academy.css";
 import background from "../assets/Home/galaxyEarthMilkyWay.jpg";
-import absolute from "../assets/Academy/Absolute.webp";
 
 function Academy() {
   return (
@@ -8,7 +7,6 @@ function Academy() {
       <section className="first-academy">
         <h1>Academia</h1>
         <h3>¡Accede ahora para aprender y ganar!</h3>
-        <img src={absolute} />
       </section>
 
       <section className="second-academy">

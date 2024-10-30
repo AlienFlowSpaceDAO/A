@@ -6,6 +6,24 @@
   text-align: center;
   margin-inline: auto;
   max-width: 1600px;
+  position: relative;
+  border: 1px red solid;
+  background-image: url("../assets/Academy/Absolute.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 20px 90px;
+}
+
+.first-academy::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
 
 .first-academy h1,
@@ -27,6 +45,14 @@
   text-align: center;
   margin-inline: auto;
   max-width: 1600px;
+}
+
+.second-academy ul {
+  justify-content: center;
+  width: 50%;
+  margin-inline: auto;
+  justify-content: center;
+  list-style: none;
 }
 
 .third-academy {
