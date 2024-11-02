@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Landing from "./pages/Home";
+import Contact from "./pages/Contact";
 import Academy from "./pages/Academy";
 import Club from "./pages/Clubs";
 import Conectworking from "./pages/CoNetWorKing";
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route exact path="/" Component={Landing} />
         <Route path="/about" Component={About} />
+        <Route path="/contact" Component={Contact} />
         <Route path="/academy" Component={Academy} />
         <Route path="/club" Component={Club} />
         <Route path="/conetworking" Component={Conectworking} />

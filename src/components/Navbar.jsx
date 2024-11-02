@@ -22,6 +22,9 @@ function Navbar() {
           <Link to="/about">{t("navbar.about")}</Link>
         </li>
         <li>
+          <Link to="/contact">{t("navbar.contact")}</Link>
+        </li>
+        <li>
           <Link to="/academy">{t("navbar.academy")}</Link>
         </li>
         <li>

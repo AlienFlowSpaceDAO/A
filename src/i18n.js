@@ -9,6 +9,7 @@ const resources = {
       navbar: {
         home: "Home",
         about: "About",
+        contact: "Contact",
         academy: "Academy",
         club: "Club",
         conetworking: "Conetworking",
@@ -22,6 +23,7 @@ const resources = {
       navbar: {
         home: "Inicio",
         about: "Sobre nosotros",
+        contact: "Contacto",
         academy: "Academia",
         club: "Club",
         conetworking: "Co-networking",
@@ -35,6 +37,7 @@ const resources = {
       navbar: {
         home: "主页",
         about: "关于我们",
+        contact: "联系",
         academy: "学院",
         club: "俱乐部",
         conetworking: "共同工作",
@@ -48,6 +51,7 @@ const resources = {
       navbar: {
         home: "ホーム",
         about: "私たちについて",
+        contact: "連絡 (れんらく)",
         academy: "アカデミー",
         club: "クラブ",
         conetworking: "コネクションワーキング",
@@ -61,6 +65,7 @@ const resources = {
       navbar: {
         home: "Início",
         about: "Sobre nós",
+        contact: "Contacto",
         academy: "Academia",
         club: "Clube",
         conetworking: "Co-networking",
@@ -74,6 +79,7 @@ const resources = {
       navbar: {
         home: "Accueil",
         about: "À propos",
+        contact: "Contact",
         academy: "Académie",
         club: "Club",
         conetworking: "Co-networking",

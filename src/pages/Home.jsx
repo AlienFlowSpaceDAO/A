@@ -32,7 +32,7 @@ function Landing() {
           <button className="normalbutton">GameFi</button>
           <button className="normalbutton">ReFi</button>
         </div>
-        <div></div>
+  
       </section>
 
       <section className="third-home">
