@@ -58,8 +58,36 @@
   font-weight: bold;
 }
 
-.list-footer {
-  color: white;
-  text-align: center;
+.list-networks {
+  list-style-type: none;
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.third-contact {
+  border-radius: 50%;
+}
+
+.fourth-contact {
   margin-inline: auto;
+  max-width: 1600px;
+}
+
+.third-contact {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 20px 15px rgb(0, 0, 0);
+  margin-inline: auto;
+  margin-block: 20px;
+}
+
+.third-contact img {
+  width: 101%;
+  height: 101%;
+  object-fit: cover;
 }

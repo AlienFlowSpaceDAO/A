@@ -56,4 +56,43 @@
 }
 
 .third-academy {
+  max-width: 1600px;
+  margin-inline: auto;
+  margin-block: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.third-academy div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.third-one img {
+  width: 20vw;
+  max-width: 400px;
+  min-width: 200px;
+  aspect-ratio: 4/1;
+}
+
+.third-two img {
+  max-width: 100px;
+  min-width: 60px;
+  width: 10vw;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.third-three img {
+  max-width: 300px;
+  min-width: 60px;
+  width: 30vw;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px 15px;
+  background-color: black;
 }

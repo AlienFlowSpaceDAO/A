@@ -1,5 +1,7 @@
 import background from "../assets/Home/galaxyEarthMilkyWay.jpg";
 import "./contact.css";
+import { InlineWidget } from "react-calendly";
+import milkyway from "../assets/Contact/milkyway.jpg";
 
 function Contact() {
   return (
@@ -23,7 +25,7 @@ function Contact() {
           <p className="email">G@AlienFlow.Space</p>
         </div>
 
-        <ul className="list-footer">
+        <ul className="list-networks">
           <li>mail</li>
           <li>face</li>
           <li>insta</li>
@@ -34,7 +36,20 @@ function Contact() {
           <li>youtu</li>
         </ul>
       </section>
-      <section className="third-contact"></section>
+      <div className="third-contact">
+        <img src={milkyway} />
+      </div>
+      <section className="fourth-contact">
+        <InlineWidget
+          url="https://calendly.com/giovanni-cespedes-22"
+          pageSettings={{
+            backgroundColor: "000",
+            hideEventTypeDetails: false,
+            primaryColor: "00ff00",
+            textColor: "fff",
+          }}
+        />
+      </section>
       <img className="background" src={background} />
     </div>
   );
