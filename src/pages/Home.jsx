@@ -1,6 +1,6 @@
 import "./home.css";
 import background from "../assets/Home/galaxyEarthMilkyWay.jpg";
-import alienbook from "../assets/Home/alienbook.webp";
+import alienbook from "../assets/Home/Alienbook.webp";
 import academy from "../assets/Home/Academy.webp";
 import club from "../assets/Home/Club.webp";
 import conetwork from "../assets/Home/Conetwork.webp";
