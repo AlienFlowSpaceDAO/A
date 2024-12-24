@@ -1,0 +1,31 @@
+.conetworking {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid red;
+    color: white;
+}
+
+.first-conetworking{  
+    text-align: center;  
+}
+
+.first-conetworking p {
+    width: 500px;
+    margin-inline: auto ;
+}
+
+.second-conetworking{
+    text-align: center;
+}
+
+.second-conetworking div {
+    width: 500px;
+    height: 150px;
+    margin-inline: auto;
+    margin-block: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+    padding-inline: 50px;
+    background-color: #00ff00a5;
+}
