@@ -6,6 +6,8 @@
 
 .first-conetworking{  
     text-align: center;  
+    margin-inline: auto;
+    max-width: 1600px;
 }
 
 .first-conetworking p {
@@ -15,6 +17,8 @@
 
 .second-conetworking{
     text-align: center;
+    margin-inline: auto;
+    max-width: 1600px;
 }
 
 .second-conetworking div {
@@ -28,4 +32,52 @@
     border-radius: 100px;
     padding-inline: 50px;
     background-color: #00ff00a5;
+}
+
+.fort-conetworking{
+    max-width: 1600px;
+    margin-inline: auto
+}
+
+.fort-conetworking div{
+    width: 600px;
+    height: 250px;
+    margin-inline: auto;
+    margin-block: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+    padding-inline: 50px;
+    text-align: center;
+    background-color: #00ff00a5;
+}
+
+.fort-conetworking img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    aspect-ratio: square;
+    margin-inline: auto;
+    margin-top: -60px;
+}
+
+.fort-conetworking article {
+    border-radius: 50px;
+    width: 60px;
+    height: 40px;
+    background-color: darkgray;
+}
+
+.fift-conetworking{
+    max-width: 1600px;
+    margin-inline: auto;
+}
+
+.fift-conetworking{
+    display: flex
+}
+
+.fift-conetworking article{
+    width: 40%;
 }

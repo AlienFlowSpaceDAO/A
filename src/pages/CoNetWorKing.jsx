@@ -1,7 +1,11 @@
 import background from "../assets/CoNetWorking/CoNetWorking.webp";
+import image from "../assets/CoNetWorking/dreamspace.webp";
 import "./conetworking.css"
 
 function Conetworking() {
+  const fift=[{img:"img",text:"9 Aeons Experience"},{img:"img",text:"10 Star Rating"},
+    {img:"img",text:"Quick Turnaround"},{img:"img",text:"Dedicated Support"},
+  ]
   return (
     <div className="conetworking">
     <section className="first-conetworking">
@@ -37,8 +41,24 @@ function Conetworking() {
       </div>
     </section>
     <section className="third-conetworking"></section>
-    <section className="fort-conetworking"></section>
-    <section className="fift-conetworking"></section>
+    <section className="fort-conetworking"> 
+      <div>
+        <img src={image}/>
+        <p>
+        You can also find different collaborative networking spaces with cutting-edge technologies as well as tools and instruments such as Blockchain, 
+        neural intelligence networks, quantum computing... You can also connect to share knowledge, skills and interests, thus creating the best professional 
+        synergies with the best competitive advantages, greater benefits both in your quality of life and professionally, increasing and improving energy 
+        efficiency and environmental sustainability in work flows & processes, this is “WorkFlow” guaranteeing mutual gains as a symbiosis...
+        </p>
+        <button className="normalbutton">Find Now!</button>
+      </div>
+      <article></article>
+      <article></article>
+    </section>
+    <section className="fift-conetworking">
+      <article><h2>Why love nature</h2><p>Build the best experience to create Greater & Better Values ​​for our associations and clients, using markets and business lines to inspire and implement environmentally friendly solutions. We strive to go above and beyond for our associate clientele no matter the challenge. Our goal is to offer the best work every day through our spaces</p></article>
+      <article>{fift.map(i=>{return (<div><img src={i.img}></img><p>{i.text} </p></div>)})} </article>
+    </section>
     <img className="background" src={background} />
     </div>
   )
