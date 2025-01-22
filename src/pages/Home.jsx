@@ -9,8 +9,10 @@ function Landing() {
   return (
     <div className="home">
       <section className="first-home">
+        <div className="shadow-overlay"></div>
+
         <h1 className="primary-color">ALIEN FLOW SPACE</h1>
-        <p className="text">
+        <p>
           Access & Explore the DAO Ecosystem Solutions
           <br />
           Unlock the Evolution of Energy Efficiency with Environmental
@@ -27,10 +29,10 @@ function Landing() {
 
       <section className="second-home">
         <div className="buttonlist">
-          <button className="normalbutton">DeFi</button>
-          <button className="normalbutton">DeSci</button>
-          <button className="normalbutton">GameFi</button>
-          <button className="normalbutton">ReFi</button>
+          <button className="secondbutton">DeFi</button>
+          <button className="secondbutton">DeSci</button>
+          <button className="secondbutton">GameFi</button>
+          <button className="secondbutton">ReFi</button>
         </div>
   
       </section>

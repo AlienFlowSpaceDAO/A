@@ -1,4 +1,4 @@
-import background from "../assets/CoNetWorking/CoNetWorking.webp";
+import background from "../assets/CoNetWorking/CoNetWorKing.webp";
 import image from "../assets/CoNetWorking/dreamspace.webp";
 import "./conetworking.css"
 
