@@ -1,0 +1,92 @@
+.faq-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  margin-inline: auto;
+}
+
+.faq-summary {
+  cursor: pointer;
+  width: 100%;
+  font-weight: 600;
+  font-size: 12px;
+  color: #69af00;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #69af00;
+  border-radius: 20px;
+  box-shadow: 0 0 0 0 transparent;
+  transition: all 0.2s ease-in;
+  background-color: rgba(147, 147, 147, 0.27);
+}
+
+.faq-summary:hover {
+  color: white;
+  box-shadow: 0 0 30px 0 #69af007b;
+  background-color: #69af00;
+  transition: all 0.2s ease-out;
+}
+
+.faq-summary:hover:before {
+  animation: shine 0.5s 0s linear;
+}
+
+.faq-summary:active {
+  box-shadow: 0 0 0 0 transparent;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.faq-summary:before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: white;
+  box-shadow: 0 0 15px 3px white;
+  transform: skewX(-20deg);
+}
+
+.faq-summary p {
+  font-size: large;
+}
+
+.faq-summary h2,
+svg {
+  margin-inline: 30px;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: white;
+  margin-left: 30px;
+  width: 90%;
+}
+
+.faq-summary svg {
+  width: 30px;
+}
+
+.faq-icon {
+  transition: transform 0.2s ease-in-out;
+}
+
+.faq-item[open] .faq-icon {
+  transform: rotate(180deg);
+}
+
+/* Animación de brillo para el hover */
+@keyframes shine {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

@@ -106,7 +106,7 @@ function Academy() {
             />
           </a>
         </div>
-        
+
         <div className="third-two">
           <a
             href="https://www.edx.org/"
